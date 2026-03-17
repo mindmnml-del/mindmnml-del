@@ -19,7 +19,7 @@ A prompt generation platform with 6 AI personalities (Helios system), Character 
 🔒 Character Lock — Persistent Identity Engine
 A zero-dependency Manifest V3 Chrome Extension that enforces persistent character profiles across 7 major AI platforms via Shadow DOM piercing. 169 automated tests.
 Vanilla JS Manifest V3 Webpack Playwright
-
+`Vanilla JS` `Manifest V3` `Webpack` `Playwright`
 ## How I Build
 
 I front-load architecture before writing a single line of code. My workflow:
