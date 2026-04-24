@@ -18,7 +18,12 @@ A prompt generation platform with 6 AI personalities (Helios system), Character 
 
 🔒 Character Lock — Persistent Identity Engine
 A zero-dependency Manifest V3 Chrome Extension that enforces persistent character profiles across 7 major AI platforms via Shadow DOM piercing. 169 automated tests.
+https://chromewebstore.google.com/detail/character-lock/jnehhjnndldmoecajenhclkbfdcmgglh
 `Vanilla JS` `Manifest V3` `Webpack` `Playwright`
+
+🛒 geohub.ge — Georgian Local Food Marketplace
+A marketplace that aggregates local Facebook-only vendors into a single searchable storefront. Built with a partner. Hardened through a dedicated security, performance, and accessibility sprint (independent audit scores: Security 85, Performance 92, SEO 95, Accessibility 82).
+Next.js 14 Supabase Tailwind Vercel Vitest Playwright
 ## How I Build
 
 I front-load architecture before writing a single line of code. My workflow:
