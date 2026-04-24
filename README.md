@@ -1,4 +1,4 @@
-# Hey, I'm Nick 👋
+# Hey, I'm Nika 👋
 
 Full-stack developer building AI-powered products as a solo founder.
 
