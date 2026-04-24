@@ -46,7 +46,7 @@ I use NotebookLM as a persistent context layer, Claude as the execution engine, 
 ## Connect
 
 - 💼 [LinkedIn](https://linkedin.com/in/nika-bokuchava-7856b03b5)
-- 🛠️ [Upwork](https://www.upwork.com/freelancers/~01yourprofile) — Available for AI integration, lead generation systems, and full-stack builds
+- 🛠️ [Upwork]([https://www.upwork.com/freelancers/nikab19) — Available for AI integration, lead generation systems, and full-stack builds
 - 📧 Open to freelance work and collaborations
 
 ---
