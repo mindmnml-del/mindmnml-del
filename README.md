@@ -1,67 +1,69 @@
-# Hey, I'm Nika 👋
+# Hey, I'm Nika
 
-Full-stack developer building AI-powered products as a solo founder.
+**Full-Stack AI Engineer building production-minded LLM apps**
 
-I don't have a CS degree or a corporate resume. I taught myself to code and went straight to building production software. Two products live, both generating real value, both built from scratch by one person.
+I build AI products that go beyond the demo: structured outputs, validation, evals, guardrails, full-stack SaaS, automation systems, and production-focused architecture.
 
 ## What I'm Building
 
-### 🔍 Swarm — B2B Lead Intelligence Engine
+### Cold Lead Decoder — Guardrailed LLM App
 
-Surfaces local business data from public sources, crawls websites, extracts and verifies contact emails, assigns AI confidence scores. Processes 500+ companies per hour.
+A live LLM lead-analysis app that turns a company domain into a structured lead card with evidence, confidence notes, and follow-up angles.
 
-`TypeScript` `Next.js` `Node.js` `PostgreSQL` `GPT-4o` `Stripe`
+Built with structured outputs, Zod validation, repair retries, degraded states, SSRF protection, prompt-injection boundaries, and production metrics.
 
-### ✨ AISpark Studio — AI Prompt Engine with Character Consistency
+[Live Demo](https://coldl.vercel.app) · [Repo](https://github.com/nikabokuchava/cold-lead-decoder)
 
-A prompt generation platform with 6 AI personalities (Helios system), Character Lock for visual consistency across 30+ trait fields, a Critic module for prompt quality scoring, and a RAG pipeline powered by 34 curated documents.
+`TypeScript` `Next.js` `Zod` `LLM APIs` `Vercel`
 
-`FastAPI` `Python` `Next.js` `Google Cloud` `Vertex AI` `Gemini 2.5 Pro`
+### AISpark Studio — Prompt Evaluation & LLM API System
 
-### 🔒 Character Lock — Persistent Identity Engine
+A prompt-evaluation and LLM API system for scoring, improving, and routing prompts through structured quality gates.
 
-A zero-dependency Manifest V3 Chrome Extension that enforces persistent character profiles across 7 major AI platforms via Shadow DOM piercing. 169 automated tests.
+`Python` `FastAPI` `Next.js` `Vertex AI` `Gemini` `Cloud SQL`
 
-[Chrome Web Store →](https://chromewebstore.google.com/detail/character-lock/jnehhjnndldmoecajenhclkbfdcmgglh)
+### Swarm — B2B Research Workflow Platform
 
-`Vanilla JS` `Manifest V3` `Webpack` `Playwright`
+A full-stack SaaS platform for B2B research workflows, job orchestration, validation, auth, billing, and real-time monitoring.
 
-### 🛒 geohub.ge — Georgian Local Food Marketplace
+`TypeScript` `Next.js` `PostgreSQL` `Prisma` `BullMQ` `Stripe` `Clerk`
 
-A marketplace that aggregates local Facebook-only vendors into a single searchable storefront. Built with a partner. Hardened through a dedicated security, performance, and accessibility sprint (independent audit scores: Security 85, Performance 92, SEO 95, Accessibility 82).
+### Character Lock — Chrome Extension
 
-`Next.js 14` `Supabase` `Tailwind` `Vercel` `Vitest` `Playwright`
+A Manifest V3 Chrome Extension for keeping structured character profiles consistent across AI generation tools.
+
+`TypeScript` `Manifest V3` `Vitest` `Playwright`
+
+### GeoHub — Georgian Local Marketplace
+
+A live multilingual marketplace connecting Georgian local producers with buyers.
+
+[Live](https://geohub.ge)
+
+`Next.js` `Supabase` `PostgreSQL` `next-intl` `Tailwind` `Vercel`
 
 ## How I Build
 
-I front-load architecture before writing a single line of code. My workflow:
+I use AI-assisted engineering workflows, but I keep the judgment human:
 
-**PRD → System Architecture → Database Schema → Task Breakdown → NotebookLM Documentation → Build Loop**
+- define the product problem before implementation
+- write architecture and acceptance criteria before code
+- use AI agents for implementation support
+- validate outputs with tests, reviews, and manual QA
+- keep production risks visible: auth, data shape, failure states, security, observability
 
-I use NotebookLM as a persistent context layer, Claude as the execution engine, and myself as the human bridge making judgment calls between systems. This pipeline catches expensive mistakes early and produces clean, maintainable code.
+## Technical Focus
 
-## Tech Stack
+- LLM apps with structured outputs and validation
+- RAG/eval reliability and production debugging
+- Full-stack SaaS with Next.js, FastAPI, PostgreSQL, Supabase, Prisma
+- Auth, billing, dashboards, APIs, workers, and deployment
+- Browser automation and workflow tools
 
-**Languages:** TypeScript, Python, JavaScript  
-**Frontend:** Next.js, React, Tailwind CSS  
-**Backend:** Node.js, FastAPI, Express  
-**Data:** PostgreSQL, Prisma, SQLAlchemy  
-**AI/ML:** GPT-5.5, Gemini 3.1 Pro, Claude Opus 4.7, Vertex AI, RAG Pipelines, Perplexity  
-**Cloud:** Google Cloud, Vercel  
-**Other:** Puppeteer, Stripe, Clerk, Docker
+## Stack
 
-## AI Workflow & Tools
+`TypeScript` · `Next.js` · `React` · `Python` · `FastAPI` · `PostgreSQL` · `Supabase` · `Prisma` · `BullMQ` · `Docker` · `Vercel` · `LLM APIs`
 
-**Architecture & Context:** NotebookLM, Claude Opus 4.7  
-**Research & Code:** Perplexity AI, Jules (Google), OpenClaw  
-**Pipeline:** Spec-first multi-agent workflow — AI handles research, architecture validation, and execution while I make the judgment calls
+## Links
 
-## Connect
-
-- 💼 [LinkedIn](https://linkedin.com/in/nika-bokuchava-7856b03b5)
-- 🛠️ [Upwork](https://www.upwork.com/freelancers/nikab19) — Available for AI integration, lead generation systems, and full-stack builds
-- 📧 [bokuchavanick@gmail.com](mailto:bokuchavanick@gmail.com)
-
----
-
-*Building in public from Tbilisi, Georgia 🇬🇪*
+[Portfolio](https://aispark.art) · [LinkedIn](https://linkedin.com/in/nika-bokuchava-ba0893322)
