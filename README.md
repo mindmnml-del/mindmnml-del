@@ -66,4 +66,4 @@ I use AI-assisted engineering workflows, but I keep the judgment human:
 
 ## Links
 
-[Portfolio](https://aispark.art) · [LinkedIn](https://linkedin.com/in/nika-bokuchava-ba0893322)
+ · [LinkedIn](https://linkedin.com/in/nika-bokuchava-ba0893322)
